@@ -1,0 +1,11 @@
+add_newline = false
+format = '$golang$python$git_branch$git_commit$git_status$directory$character'
+
+[cmd_duration]
+disabled = true
+
+[golang]
+format = '${symbol}'
+
+[python]
+format = '[${symbol}(\($virtualenv\) )]($style)'
